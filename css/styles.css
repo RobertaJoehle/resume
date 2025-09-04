@@ -20,6 +20,7 @@ a {
 }
 a:hover {
   color: #bcaa96;
+  text-decoration: none;
 }
 
 /* HOME
