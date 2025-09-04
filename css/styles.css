@@ -41,3 +41,7 @@ body {
 
 /* FOOTER
 ------------------------------------*/
+footer {
+  background: #222;
+  color: #d3d4d6;
+}
