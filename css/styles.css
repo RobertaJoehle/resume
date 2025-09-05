@@ -10,15 +10,15 @@ Off-white     #f6f6f6
 
 /* GLOBAL STYLES 
 ------------------------------------*/
-/*
-https:www.paulirish.com/2012/box-sizing-border-box-ftw/
+/* 
+  https://www.paulirish.com/2012/box-sizing-border-box-ftw/
 */
 html {
   box-sizing: border-box;
 }
 *,
 *:before,
-*after {
+*:after {
   box-sizing: inherit;
 }
 body {
