@@ -10,6 +10,9 @@ Off-white     #f6f6f6
 
 /* GLOBAL STYLES 
 ------------------------------------*/
+/*
+https:www.paulirish.com/2012/box-sizing-border-box-ftw/
+*/
 body {
   background: #f6f6f6;
 }
