@@ -67,9 +67,11 @@ footer a:hover {
 
 /* RESUME
 ------------------------------------*/
-.resume header ::before {
+.resume header::before {
   background: url(../images/bg-home-office-studio.jpg);
   content: "hello";
+  display: block;
+  height: 375px;
 }
 
 /* Profile
