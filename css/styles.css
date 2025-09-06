@@ -80,6 +80,10 @@ footer a:hover {
 
 /* Projects
 ------------------------------------*/
+.project-item img {
+  width: 300px;
+  float: left;
+}
 
 /* Work Experience
 ------------------------------------*/
