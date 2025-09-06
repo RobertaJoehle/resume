@@ -67,6 +67,9 @@ footer a:hover {
 
 /* RESUME
 ------------------------------------*/
+.resume header {
+  background: url(../images/bg-home-office-studio.jpg);
+}
 
 /* Profile
 ------------------------------------*/
