@@ -133,3 +133,6 @@ footer {
 .socials img {
   width: 32px;
 }
+.socials img:hover {
+  opacity: 0.5;
+}
