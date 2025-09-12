@@ -111,7 +111,7 @@ footer a:hover {
 ------------------------------------*/
 .work-item {
   display: grid;
-  grid: template columns 18.75rem 1fr;
+  grid-template-columns: 18.75rem 1fr;
   column-gap: 1.25rem;
 }
 
