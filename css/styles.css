@@ -79,13 +79,13 @@ footer a:hover {
   background-size: cover;
   content: "";
   display: block;
-  height: 375px;
+  height: 24.438rem;
 }
 .resume-section {
-  margin-bottom: 50px;
+  margin-bottom: 3.125rem;
 }
 .resume-section h2 {
-  border-bottom: 2px dashed #d3d4d6;
+  border-bottom: 0.125rem dashed #d3d4d6;
 }
 
 /* Profile
