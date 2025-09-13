@@ -218,7 +218,7 @@ footer {
   margin-inline-start: 0.625rem;
 }
 .socials img {
-  width: 2.188rem;
+  inline-size: 2.188rem;
 }
 .socials img:hover {
   opacity: 0.5;
@@ -228,7 +228,7 @@ footer {
   footer {
     display: flex;
     justify-content: space-between;
-    padding-inline: 0 1.25rem;
+    padding-inline: 1.25rem;
   }
 }
 
