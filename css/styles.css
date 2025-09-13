@@ -197,7 +197,7 @@ footer a:hover {
 /* Education
 ------------------------------------*/
 .eduction-item {
-  margin: 1.875rem 0;
+  margin-block: 1.875rem 0;
 }
 .eduction-item p {
   margin: 0;
