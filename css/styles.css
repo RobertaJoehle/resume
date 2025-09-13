@@ -140,6 +140,9 @@ footer a:hover {
 .work-details p {
   margin: 0;
 }
+.work-summary p:first-child {
+  margin-top: 0;
+}
 
 /* Education
 ------------------------------------*/
