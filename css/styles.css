@@ -124,13 +124,19 @@ footer a:hover {
 /* Projects
 ------------------------------------*/
 .project-item {
-  display: flow-root;
   margin: 1.875rem 0;
 }
 .project-item img {
   width: 18.75rem;
-  float: left;
-  margin-right: 1.25rem;
+}
+@media screen and (min-wdith: 860px) {
+  .project-item {
+    display: flow-root;
+  }
+  .project-item img {
+    float: left;
+    margin-right: 1.25rem;
+  }
 }
 
 /* Work Experience
