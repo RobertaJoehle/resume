@@ -152,24 +152,24 @@ footer a:hover {
     display: flow-root;
   }
   .project-item img {
-    float: left;
-    margin-right: 1.25rem;
+    float: inline-start;
+    margin-inline-end: 1.25rem;
   }
 }
-@media screen and (min-width: 40.625rem) and (max-wdith: 53.688rem) {
+@media screen and (min-width: 40.625rem) and (max-width: 53.688rem) {
   .project-wrapper {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     column-gap: 1.25rem;
   }
   .project-item img {
-    width: 100%;
+    inline-size: 100%;
   }
 }
 @media screen and (max-width: 31.25rem) {
   .project-item img {
-    width: 100%;
-    margin-bottom: 0.625rem;
+    inline-size: 100%;
+    margin-block-end: 0.625rem;
   }
 }
 
