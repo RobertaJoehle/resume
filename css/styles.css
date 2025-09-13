@@ -158,17 +158,22 @@ footer a:hover {
 /* Work Experience
 ------------------------------------*/
 .work-item {
-  display: grid;
-  grid-template-columns: 18.75rem 1fr;
-  column-gap: 1.25rem;
   margin: 1.875rem 0;
 }
 
 .work-details p {
   margin: 0;
 }
-.work-summary p:first-child {
-  margin-top: 0;
+
+@media screen and (min-width: 53.75rem) {
+  .work-item {
+    display: grid;
+    grid-template-columns: 18.75rem 1fr;
+    column-gap: 1.25rem;
+  }
+  .work-summary p:first-child {
+    margin-top: 0;
+  }
 }
 
 /* Education
