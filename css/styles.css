@@ -136,7 +136,7 @@ footer a:hover {
   display: grid;
   grid-template-columns: 18.75rem 1fr;
   column-gap: 1.25rem;
-  margin: 1.875rem 0;
+  /* margin: 1.875rem 0; */
 }
 
 .work-details p {
