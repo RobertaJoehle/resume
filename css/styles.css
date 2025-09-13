@@ -147,7 +147,7 @@ footer a:hover {
 .project-item img {
   inline-size: 18.75rem;
 }
-@media screen and (min-wdith: 53.75rem) {
+@media screen and (min-width: 53.75rem) {
   .project-item {
     display: flow-root;
   }
