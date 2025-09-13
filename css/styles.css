@@ -223,10 +223,10 @@ footer {
 .socials img:hover {
   opacity: 0.5;
 }
-@media screen and (min-wdith:53.75rem) {
+
+@media screen and (min-wdith:53.75rem){
   footer {
   display: flex;
   justify-content: space-between;
-  padding: 0 1.25rem;
-  }
-}
+  padding: 0 1.25rem;}
+ }
