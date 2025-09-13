@@ -119,13 +119,13 @@ footer a:hover {
 }
 @media screen and (max-width: 31.25rem) {
   .resume header::before {
-    height: 12.5rem;
+    block-size: 12.5rem;
   }
   h1 {
-    font-size: 5rem;
+    font-size: 1.8rem;
   }
   h2 {
-    font-size: 2.6rem;
+    font-size: 1.2rem;
   }
 }
 
