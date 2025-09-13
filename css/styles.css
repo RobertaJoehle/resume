@@ -142,10 +142,10 @@ footer a:hover {
 /* Projects
 ------------------------------------*/
 .project-item {
-  margin: 1.875rem 0;
+  margin-block: 1.875rem 0;
 }
 .project-item img {
-  width: 18.75rem;
+  inline-size: 18.75rem;
 }
 @media screen and (min-wdith: 53.75rem) {
   .project-item {
