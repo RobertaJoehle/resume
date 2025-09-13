@@ -208,10 +208,7 @@ footer a:hover {
 footer {
   background: #222;
   color: #d3d4d6;
-  display: flex;
-  justify-content: space-between;
-  padding: 0 1.25rem;
-}
+ }
 .socials {
   list-style-type: none;
   padding: 0;
@@ -225,4 +222,11 @@ footer {
 }
 .socials img:hover {
   opacity: 0.5;
+}
+@media screen and (min-wdith:53.75rem) {
+  footer {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 1.25rem;
+  }
 }
