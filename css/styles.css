@@ -136,7 +136,9 @@ footer a:hover {
   display: grid;
   grid-template-columns: 18.75rem 1fr;
   column-gap: 1.25rem;
+  margin: 1.875rem 0;
 }
+
 .work-details p {
   margin: 0;
 }
@@ -146,9 +148,13 @@ footer a:hover {
 
 /* Education
 ------------------------------------*/
+.eduction-item {
+  margin: 1.875rem 0;
+}
 .eduction-item p {
   margin: 0;
 }
+
 /* FOOTER
 ------------------------------------*/
 footer {
