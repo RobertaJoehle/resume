@@ -119,7 +119,7 @@ footer a:hover {
   block-size: 24.438rem;
 }
 .resume-section {
-  border-block-end: 3.125rem;
+  margin-block-end: 3.125rem;
 }
 .resume-section h2 {
   border-block-end: 2px dashed #d3d4d6;
