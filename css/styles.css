@@ -81,9 +81,9 @@ footer a:hover {
   border-radius: 5px;
 }
 .content-wrapper {
-  margin: 0 auto;
+  margin-inline: auto;
   padding: 1.875rem;
-  max-width: 56.25rem;
+  max-inline-size: 56.25rem;
 }
 
 /* HOME
