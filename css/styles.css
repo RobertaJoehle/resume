@@ -101,137 +101,137 @@ footer a:hover {
   background: rgb(255 255 255 / 0.9);
   padding: 1.875rem;
 }
-@media screen and (max-width: 40.625rem) {
+/* @media screen and (max-width: 40.625rem) {
   .home .content-wrapper {
     padding: 0.625rem;
   }
   .content-bg {
     padding: 1.25rem;
-  }
+  } */
 
-  /* RESUME
+/* RESUME
 ------------------------------------*/
+.resume header::before {
+  background: url(../images/bg-home-office-studio.jpg) center;
+  background-size: cover;
+  content: "";
+  display: block;
+  height: 24.438rem;
+}
+.resume-section {
+  margin-bottom: 3.125rem;
+}
+.resume-section h2 {
+  border-bottom: 2px dashed #d3d4d6;
+}
+@media screen and (max-width: 31.25rem) {
   .resume header::before {
-    background: url(../images/bg-home-office-studio.jpg) center;
-    background-size: cover;
-    content: "";
-    display: block;
-    height: 24.438rem;
+    block-size: 12.5rem;
   }
-  .resume-section {
-    margin-bottom: 3.125rem;
+  h1 {
+    font-size: 1.8rem;
   }
-  .resume-section h2 {
-    border-bottom: 2px dashed #d3d4d6;
-  }
-  @media screen and (max-width: 31.25rem) {
-    .resume header::before {
-      block-size: 12.5rem;
-    }
-    h1 {
-      font-size: 1.8rem;
-    }
-    h2 {
-      font-size: 1.2rem;
-    }
-  }
-
-  /* Profile
-------------------------------------*/
-
-  /* Projects
-------------------------------------*/
-  .project-item {
-    margin: 1.875rem 0;
-  }
-  .project-item img {
-    width: 18.75rem;
-  }
-  @media screen and (min-wdith: 53.75rem) {
-    .project-item {
-      display: flow-root;
-    }
-    .project-item img {
-      float: left;
-      margin-right: 1.25rem;
-    }
-  }
-  @media screen and (min-width: 40.625rem) and (max-wdith: 53.688rem) {
-    .project-wrapper {
-      display: grid;
-      grid-template-columns: repeat(2, 1fr);
-      column-gap: 1.25rem;
-    }
-    .project-item img {
-      width: 100%;
-    }
-  }
-  @media screen and (max-width: 31.25rem) {
-    .project-item img {
-      width: 100%;
-      margin-bottom: 0.625rem;
-    }
-  }
-
-  /* Work Experience
-------------------------------------*/
-  .work-item {
-    margin: 1.875rem 0;
-  }
-
-  .work-details p {
-    margin: 0;
-  }
-
-  @media screen and (min-width: 53.75rem) {
-    .work-item {
-      display: grid;
-      grid-template-columns: 18.75rem 1fr;
-      column-gap: 1.25rem;
-    }
-    .work-summary p:first-child {
-      margin-top: 0;
-    }
-  }
-
-  /* Education
-------------------------------------*/
-  .eduction-item {
-    margin: 1.875rem 0;
-  }
-  .eduction-item p {
-    margin: 0;
-  }
-
-  /* FOOTER
-------------------------------------*/
-  footer {
-    background: #222;
-    color: #d3d4d6;
-  }
-  .socials {
-    list-style-type: none;
-    padding: 0;
-  }
-  .socials li {
-    display: inline-block;
-    margin-inline-start: 0.625rem;
-  }
-  .socials img {
-    width: 2.188rem;
-  }
-  .socials img:hover {
-    opacity: 0.5;
-  }
-
-  @media screen and (min-width: 53.75rem) {
-    footer {
-      display: flex;
-      justify-content: space-between;
-      padding-inline: 0 1.25rem;
-    }
+  h2 {
+    font-size: 1.2rem;
   }
 }
+
+/* Profile
+------------------------------------*/
+
+/* Projects
+------------------------------------*/
+.project-item {
+  margin: 1.875rem 0;
+}
+.project-item img {
+  width: 18.75rem;
+}
+@media screen and (min-wdith: 53.75rem) {
+  .project-item {
+    display: flow-root;
+  }
+  .project-item img {
+    float: left;
+    margin-right: 1.25rem;
+  }
+}
+@media screen and (min-width: 40.625rem) and (max-wdith: 53.688rem) {
+  .project-wrapper {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 1.25rem;
+  }
+  .project-item img {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 31.25rem) {
+  .project-item img {
+    width: 100%;
+    margin-bottom: 0.625rem;
+  }
+}
+
+/* Work Experience
+------------------------------------*/
+.work-item {
+  margin: 1.875rem 0;
+}
+
+.work-details p {
+  margin: 0;
+}
+
+@media screen and (min-width: 53.75rem) {
+  .work-item {
+    display: grid;
+    grid-template-columns: 18.75rem 1fr;
+    column-gap: 1.25rem;
+  }
+  .work-summary p:first-child {
+    margin-top: 0;
+  }
+}
+
+/* Education
+------------------------------------*/
+.eduction-item {
+  margin: 1.875rem 0;
+}
+.eduction-item p {
+  margin: 0;
+}
+
+/* FOOTER
+------------------------------------*/
+footer {
+  background: #222;
+  color: #d3d4d6;
+}
+.socials {
+  list-style-type: none;
+  padding: 0;
+}
+.socials li {
+  display: inline-block;
+  margin-inline-start: 0.625rem;
+}
+.socials img {
+  width: 2.188rem;
+}
+.socials img:hover {
+  opacity: 0.5;
+}
+
+@media screen and (min-width: 53.75rem) {
+  footer {
+    display: flex;
+    justify-content: space-between;
+    padding-inline: 0 1.25rem;
+  }
+}
+
 @media screen and (max-width: 53.688rem) {
   footer {
     text-align: center;
