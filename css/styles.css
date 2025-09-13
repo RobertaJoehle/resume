@@ -15,7 +15,7 @@ Off-white     #f6f6f6
 */
 html {
   box-sizing: border-box;
-  font-size: 62.5%; /*set default to 10px*/
+  /*font-size: 62.5%; /*set default to 10px*/
 }
 *,
 *:before,
