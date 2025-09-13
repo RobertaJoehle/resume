@@ -101,6 +101,13 @@ footer a:hover {
   background: rgb(255 255 255 / 0.9);
   padding: 1.875rem;
 }
+@media screen and (max-width:40.625rem){
+  .home .content-wrapper {
+    padding:0.625rem;
+}
+.content-bg {
+  padding:1.25rem;
+}
 
 /* RESUME
 ------------------------------------*/
