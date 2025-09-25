@@ -8,14 +8,13 @@ Light gray    #d3d4d6
 Off-white     #f6f6f6
 */
 
-/* GLOBAL STYLES 
+/* GLOBAL STYLES - MOBILE FIRST (0-34.313 rem)
 ------------------------------------*/
 /* 
   https://www.paulirish.com/2012/box-sizing-border-box-ftw/
 */
 html {
   box-sizing: border-box;
-  /*font-size: 62.5%; /*set default to 10px*/
 }
 *,
 *:before,
