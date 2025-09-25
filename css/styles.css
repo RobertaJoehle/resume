@@ -211,7 +211,7 @@ footer a:hover {
 /* FOOTER-MOBILE FIRST
 ------------------------------------*/
 footer {
-  background: #222;
+  background: var(--color-neutral-900);
   color: var(--color-neutral-300);
   text-align: center; /*mobile default*/
   padding: 0.625rem; /*mobile padding*/
