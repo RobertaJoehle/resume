@@ -7,7 +7,11 @@ Dark gray     #222222
 Light gray    #d3d4d6
 Off-white     #f6f6f6
 */
-
+/*Custom Properties*/
+:root {
+  /*Base neutral color*/
+  --color-neutral: oklch(85% 0.01 240); /*Light gray base*/
+}
 /*Custom Properties-Typography*/
 :root {
   --font-body: "Open Sans", sans-serif;
