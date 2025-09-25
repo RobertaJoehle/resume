@@ -101,7 +101,6 @@ footer a:hover {
 .content-wrapper {
   margin-inline: auto;
   padding: 0.625rem;
-  /*padding: 1.875rem;*/
   max-inline-size: 56.25rem;
 }
 
@@ -120,7 +119,6 @@ footer a:hover {
 .content-bg {
   background: rgb(255 255 255 / 0.9);
   padding: 1.25rem; /*mobile padding*/
-  /*padding: 1.875rem;*/
 }
 
 /* RESUME
