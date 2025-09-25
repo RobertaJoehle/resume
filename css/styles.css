@@ -226,11 +226,13 @@ footer a:hover {
   margin: 0;
 }
 
-/* FOOTER
+/* FOOTER-MOBILE FIRST
 ------------------------------------*/
 footer {
   background: #222;
   color: #d3d4d6;
+  text-align: center; /*mobile default*/
+  padding: 0.625rem; /*mobile padding*/
 }
 .socials {
   list-style-type: none;
