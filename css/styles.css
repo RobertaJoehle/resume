@@ -97,9 +97,12 @@ footer a:hover {
   line-height: 1;
   border-radius: 5px;
 }
+
+/*Mobile first content wrapper*/
 .content-wrapper {
   margin-inline: auto;
-  padding: 1.875rem;
+  padding: 1rem;
+  /*padding: 1.875rem;*/
   max-inline-size: 56.25rem;
 }
 
