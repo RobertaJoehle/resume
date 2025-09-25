@@ -147,17 +147,6 @@ footer a:hover {
 .resume-section h2 {
   border-block-end: 2px dashed #d3d4d6;
 }
-/*@media screen and (max-width: 31.25rem) {
-  .resume header::before {
-    block-size: 12.5rem;
-  }
-  h1 {
-    font-size: 1.8rem;
-  }
-  h2 {
-    font-size: 1.2rem;
-  }
-}*/
 
 /* Profile
 ------------------------------------*/
