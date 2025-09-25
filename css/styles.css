@@ -138,7 +138,8 @@ footer a:hover {
   background-size: cover;
   content: "";
   display: block;
-  block-size: 24.438rem;
+  block-size: 12.5rem; /*mobile height*/
+  /*block-size: 24.438rem;*/
 }
 .resume-section {
   margin-block-end: 3.125rem;
