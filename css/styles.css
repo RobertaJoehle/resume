@@ -131,7 +131,7 @@ footer a:hover {
   padding: 0.625rem; /*mobile padding*/
 }
 .content-bg {
-  background: rgb(255 255 255 / 0.9);
+  background: oklch(from var(--color-neutral-100) l c h / 0.9);
   padding: 1.25rem; /*mobile padding*/
 }
 
