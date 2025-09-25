@@ -100,7 +100,7 @@ footer a:hover {
 /*Mobile first content wrapper*/
 .content-wrapper {
   margin-inline: auto;
-  padding: 1rem;
+  padding: 0.625rem;
   /*padding: 1.875rem;*/
   max-inline-size: 56.25rem;
 }
