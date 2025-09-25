@@ -206,17 +206,6 @@ footer a:hover {
   margin: 0;
 }
 
-/*@media screen and (min-width: 53.75rem) {
-  .work-item {
-    display: grid;
-    grid-template-columns: 18.75rem 1fr;
-    column-gap: 1.25rem;
-  }
-  .work-summary p:first-child {
-    margin-block-start: 0;
-  }
-}*/
-
 /* Education
 ------------------------------------*/
 .eduction-item {
