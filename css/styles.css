@@ -88,11 +88,11 @@ a {
 }
 
 a:hover {
-  color: #bcaa96;
+  color: var(--color-beige);
   text-decoration: none;
 }
 footer a {
-  color: #bcaa96;
+  color: var(--color-beige);
 }
 footer a:hover {
   color: var(--color-green);
@@ -212,7 +212,7 @@ footer a:hover {
 ------------------------------------*/
 footer {
   background: #222;
-  color: #d3d4d6;
+  color: var(--color-neutral-300);
   text-align: center; /*mobile default*/
   padding: 0.625rem; /*mobile padding*/
 }
