@@ -84,8 +84,9 @@ h3 {
 
 /* links */
 a {
-  color: #3c8453;
+  color: var(--color-green);
 }
+
 a:hover {
   color: #bcaa96;
   text-decoration: none;
@@ -94,10 +95,11 @@ footer a {
   color: #bcaa96;
 }
 footer a:hover {
-  color: #3c8453;
+  color: var(--color-green);
 }
+
 .btn {
-  background: #3c8453;
+  background: var(--color-green);
   color: #f6f6f6;
   text-decoration: none;
   text-transform: uppercase;
