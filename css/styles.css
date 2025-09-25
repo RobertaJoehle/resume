@@ -123,14 +123,14 @@ footer a:hover {
   padding: 1.25rem; /*mobile padding*/
   /*padding: 1.875rem;*/
 }
-@media screen and (max-width: 40.625rem) {
+/*@media screen and (max-width: 40.625rem) {
   .home .content-wrapper {
     padding: 0.625rem;
   }
   .content-bg {
     padding: 1.25rem;
   }
-}
+}*/
 
 /* RESUME
 ------------------------------------*/
