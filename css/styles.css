@@ -22,6 +22,10 @@ Off-white     #f6f6f6
   --color-neutral-700: oklch(from var(--color-neutral) 40% c h);
   --color-neutral-800: oklch(from var(--color-neutral) 25% c h);
   --color-neutral-900: oklch(from var(--color-neutral) 12% c h);
+
+  /* Accent colors */
+  --color-green: oklch(55.37% 0.1053 151.92);
+  --color-beige: oklch(74.8% 0.0349 70.19);
 }
 /*Custom Properties-Typography*/
 :root {
