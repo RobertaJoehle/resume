@@ -8,6 +8,12 @@ Light gray    #d3d4d6
 Off-white     #f6f6f6
 */
 
+/*Custom Properties-Typography*/
+:root {
+  --font-body: "Open Sans", sans-serif;
+  --font-heading: "Caveat", Cursive;
+}
+
 /* GLOBAL STYLES - MOBILE FIRST (0-34.313 rem)
 ------------------------------------*/
 /* 
