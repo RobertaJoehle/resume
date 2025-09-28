@@ -156,7 +156,10 @@ footer a:hover {
 /* Profile
 ------------------------------------*/
 
-Projects ------------------------------------ .project-item {
+/* Projects 
+------------------------------------ */
+
+.project-item {
   margin-block: 1.875rem 0;
 }
 .project-item img {
