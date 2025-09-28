@@ -157,7 +157,7 @@ footer a:hover {
 ------------------------------------*/
 
 /* Projects 
------------------------------------- */
+------------------------------------ 
 
 .project-item {
   margin-block: 1.875rem 0;
@@ -189,6 +189,15 @@ footer a:hover {
     inline-size: 100%;
     margin-block-end: 0.625rem;
   }
+}*/
+
+/*Projects*/
+
+.projects-grid {
+  display: grid;
+  grid-template-columns: 1fr; /*Mobile:1 column*/
+  gap: 1.5rem;
+  margin-block-start: 2rem;
 }
 
 /* Work Experience
