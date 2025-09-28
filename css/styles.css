@@ -224,7 +224,20 @@ footer a:hover {
 .project-card p:last-of-type {
   margin-block-end: 1.5rem;
 }
-
+/* Tablet Styles - 34rem and up 550px+)*/
+@media (min-width: 34rem) {
+  .projects-grid {
+    grid-template-columns: repeat(2, 1fr); /*2 columns on tablet*/
+    gap: 2rem;
+  }
+}
+/* Laptop Styles - 68rem and up (1100px+)*/
+@media (min-width: 68rem) {
+  .projects-grid {
+    grid-template-columns: repeat(3, 1fr) /*3 columns on desktop*/;
+    gap: 2rem;
+  }
+}
 /* Work Experience
 ------------------------------------*/
 .work-item {
