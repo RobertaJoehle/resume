@@ -211,6 +211,12 @@ footer a:hover {
   margin-block-end: 1rem;
   color: var (--color-neutral-800);
 }
+.project-card img {
+  inline-size: 100%;
+  block-size: auto;
+  margin-block-end: 1rem;
+  border-radius: 0.25rem;
+}
 
 /* Work Experience
 ------------------------------------*/
