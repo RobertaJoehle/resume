@@ -217,6 +217,10 @@ footer a:hover {
   margin-block-end: 1rem;
   border-radius: 0.25rem;
 }
+.project-card p {
+  margin-block-end: 1rem;
+  color: var(--color-neutral-800);
+}
 
 /* Work Experience
 ------------------------------------*/
