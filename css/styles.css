@@ -26,9 +26,9 @@ Off-white     #f6f6f6
   /* Accent colors */
   --color-green: oklch(55.37% 0.1053 151.92);
   --color-beige: oklch(74.8% 0.0349 70.19);
-}
-/*Custom Properties-Typography*/
-:root {
+
+  /*Custom Properties-Typography*/
+
   --font-body: "Open Sans", sans-serif;
   --font-heading: "Caveat", Cursive;
 }
