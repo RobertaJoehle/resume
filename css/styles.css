@@ -237,6 +237,13 @@ footer a:hover {
     grid-template-columns: repeat(3, 1fr) /*3 columns on desktop*/;
     gap: 2rem;
   }
+  .project-card {
+    display: flex;
+    flex-direction: column;
+  }
+  .project-card p:last-of-type {
+    flex: 1;
+  }
 }
 /* Work Experience
 ------------------------------------*/
