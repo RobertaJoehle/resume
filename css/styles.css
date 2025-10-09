@@ -121,7 +121,12 @@ footer a:hover {
 /* --- Navigation Menu Styles --- */
 /*
 .logo {
-  max-width: 90px;
+font-size: 1.6rem;
+font-weight: 700;
+color: var(--color-neutral-100)
+text-decoration: none;
+max-inline-size: 9rem;
+display: inline-block;
 }
 
 .navWrap {
