@@ -119,18 +119,18 @@ footer a:hover {
   max-inline-size: 56.25rem;
 }
 /* --- Navigation Menu Styles --- */
-/*
+
 .logo {
-font-size: 1.6rem;
-font-weight: 700;
-color: var(--color-neutral-100)
-text-decoration: none;
-max-inline-size: 9rem;
-display: inline-block;
+  font-size: 1.6rem;
+  font-weight: 700;
+  color: var(--color-neutral-100);
+  text-decoration: none;
+  max-inline-size: 9rem;
+  display: inline-block;
 }
 
 .navWrap {
-  position: sticky; /*  ** note the menu will not be sticky until we add more page content 
+  position: sticky; /*  ** note the menu will not be sticky until we add more page content */
   top: 0;
   z-index: 99;
   height: 48px;
