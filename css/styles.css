@@ -196,6 +196,7 @@ footer a:hover {
 @media (min-width: 34rem) {
   .projects-grid {
     grid-template-columns: repeat(2, 1fr); /*2 columns on tablet*/
+    grid-template-rows: repeat(auto-fill, auto); /*Add auto rows*/
     gap: 2rem;
   }
 }
