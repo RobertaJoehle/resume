@@ -113,6 +113,7 @@ footer a:hover {
 }
 
 /*Mobile first content wrapper*/
+
 .content-wrapper {
   margin-inline: auto;
   padding: 0.625rem;
@@ -270,6 +271,7 @@ nav ul li a.active {
 }
 
 /* TABLET/DESKTOP - Large screen navigation - 68rem and up */
+
 @media (min-width: 68rem) {
   .navWrap {
     display: grid;
