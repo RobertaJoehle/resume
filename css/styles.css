@@ -67,7 +67,7 @@ h3 {
   margin: 0;
 }
 
-/*mobile first headings*/
+/*Mobile first headings*/
 h1 {
   font-size: 1.8rem;
   line-height: 1.1;
@@ -354,9 +354,8 @@ nav ul li a.active {
 /* Profile
 ------------------------------------*/
 
-/*Projects*/
-
-/*Projects*/
+/*Projects
+------------------------------------*/
 
 .projects-grid {
   display: grid;
