@@ -207,14 +207,6 @@ footer a:hover {
     grid-template-rows: repeat(auto-fill, auto); /*Add auto rows*/
     gap: 2rem;
   }
-  /*flexbox equal heights code*/
-  .project-card {
-    display: flex;
-    flex-direction: column;
-  }
-  .project-card p:last-of-type {
-    flex: 1;
-  }
 }
 /* Work Experience
 ------------------------------------*/
