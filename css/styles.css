@@ -165,6 +165,9 @@ footer a:hover {
   margin-block-start: 2rem;
 }
 .project-card {
+  display: grid;
+  grid-template-rows: subgrid; /*Add subgrid*/
+  grid-row: span 5; /*Span 5 rows*/
   background: var(--color-neutral-100);
   padding: 1.5rem;
   border-radius: 0.5rem;
