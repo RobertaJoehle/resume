@@ -309,15 +309,12 @@ nav ul li a.active {
 
   nav .btn {
     inline-size: auto;
-    background: var(--color-green);
-    color: var(--color-neutral-100);
-    letter-spacing: normal;
-    box-shadow: none;
+    padding: 0.5rem 1.5rem;
   }
 
   nav .btn:hover {
-    box-shadow: inset 0 0 0.3125rem var(--color-green);
-    background-color: var(--color-neutral-900);
+    background-color: var(--color-beige);
+    color: var(--color-neutral-900);
   }
 }
 /* HOME mobile first
