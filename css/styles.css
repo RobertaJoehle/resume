@@ -113,12 +113,210 @@ footer a:hover {
 }
 
 /*Mobile first content wrapper*/
+
 .content-wrapper {
   margin-inline: auto;
   padding: 0.625rem;
   max-inline-size: 56.25rem;
 }
+/* --- Navigation Menu Styles - MOBILE FIRST --- */
 
+.logo {
+  font-size: 1.6rem;
+  font-weight: 700;
+  color: var(--color-neutral-100);
+  text-decoration: none;
+  max-inline-size: 9rem;
+  display: inline-block;
+}
+
+.navWrap {
+  position: sticky;
+  inset-block-start: 0;
+  z-index: 99;
+  block-size: 3rem;
+  inline-size: 100%;
+  background-color: var(--color-neutral-900);
+  border-block-end: 1px solid var(--color-neutral-300);
+  box-shadow: 0 0.0625rem 0.5rem var(--color-neutral-800);
+  padding-inline: 1.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+input#navToggle {
+  display: none;
+}
+
+input#navToggle ~ label {
+  position: relative;
+  padding: 0.25rem;
+  inline-size: 2rem;
+  block-size: 2rem;
+}
+
+input#navToggle ~ label > span,
+input#navToggle ~ label > span::before,
+input#navToggle ~ label > span::after {
+  content: "";
+  display: block;
+  position: absolute;
+  inset-block-start: 0.75rem;
+  block-size: 0.125rem;
+  inline-size: 1.75rem;
+  opacity: 1;
+  background: var(--color-neutral-100);
+  transition: 0.14s ease-in-out;
+}
+
+input#navToggle ~ label > span::before {
+  inset-block-start: -0.5rem;
+}
+
+input#navToggle ~ label > span::after {
+  inset-block-start: 0.5rem;
+}
+
+#navToggle:checked ~ label > span {
+  inline-size: 0;
+  background: transparent;
+}
+
+#navToggle:checked ~ label > span::before {
+  transform: rotateZ(45deg);
+  inset-block-start: 0;
+}
+
+#navToggle:checked ~ label > span::after {
+  transform: rotateZ(-45deg);
+  inset-block-start: 0;
+}
+
+#navToggle:checked ~ nav {
+  inset-inline-start: 0;
+}
+
+nav {
+  position: absolute;
+  z-index: -1;
+  inset-block-start: 3rem;
+  inset-inline-start: -110%;
+  inline-size: 100%;
+  transition: 0.22s ease-in-out;
+}
+
+nav::after {
+  content: "";
+  position: absolute;
+  inset-block-start: 0;
+  z-index: -1;
+  block-size: 100vh;
+  inline-size: 100vw;
+  background-color: var(--color-green);
+  background-size: cover;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+nav ul li a {
+  display: inline-block;
+  text-decoration: none;
+  inline-size: 100%;
+  padding: 0.75rem 1rem;
+  color: var(--color-neutral-100);
+  border-block-end: solid 1px oklch(from var(--color-neutral-100) l c h / 0.5);
+  transition: 0.14s ease-in-out;
+}
+
+nav ul li a:hover {
+  color: var(--color-beige);
+  background: var(--color-neutral-300);
+}
+
+nav ul li:last-of-type::before {
+  content: "";
+  display: block;
+  padding: 0.5rem;
+}
+
+nav .btn {
+  background: var(--color-green);
+  color: var(--color-neutral-100);
+  border-block-end: none;
+  border-radius: 0.25rem;
+  padding: 0.75rem 1rem;
+  inline-size: 100%;
+  text-align: center;
+  display: block;
+  text-transform: none;
+  font-size: inherit;
+  letter-spacing: normal;
+}
+
+nav .btn:hover {
+  background-color: var(--color-beige);
+  color: var(--color-neutral-900);
+}
+
+/* Active page link */
+nav ul li a.active {
+  color: var(--color-beige);
+  font-weight: 700;
+}
+
+/* TABLET/DESKTOP - Large screen navigation - 68rem and up */
+
+@media (min-width: 68rem) {
+  .navWrap {
+    display: grid;
+    grid-template-columns: 6.25rem minmax(auto, 68.75rem);
+    justify-content: center;
+    block-size: auto;
+  }
+
+  .navToggleLabel {
+    display: none;
+  }
+
+  nav {
+    position: initial;
+  }
+
+  nav ul {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+  }
+
+  nav ul li a {
+    border-block-end: none;
+  }
+
+  nav ul li a:hover {
+    background: transparent;
+  }
+
+  nav::after,
+  nav ul li:last-of-type::before {
+    display: none;
+    padding: initial;
+  }
+
+  nav .btn {
+    inline-size: auto;
+    padding: 0.5rem 1.5rem;
+  }
+
+  nav .btn:hover {
+    background-color: var(--color-beige);
+    color: var(--color-neutral-900);
+  }
+}
 /* HOME mobile first
 ------------------------------------*/
 .home {
@@ -156,8 +354,6 @@ footer a:hover {
 /* Profile
 ------------------------------------*/
 
-/*PROJECTS SUB GRID*/
-
 /*Projects*/
 
 .projects-grid {
@@ -166,56 +362,51 @@ footer a:hover {
   gap: 1.5rem;
   margin-block-start: 2rem;
 }
-
 .project-card {
-  display: grid;
-  grid-template-rows: subgrid; /* Add subgrid */
-  grid-row: span 5; /* Span 5 rows: img, h3, p, p, button */
   background: var(--color-neutral-100);
   padding: 1.5rem;
   border-radius: 0.5rem;
   border: 1px solid var(--color-neutral-300);
-  box-shadow: 0 0.125rem 0.25rem
-    oklch(from var(--color-neutral-900) l c h / 0.1);
+  box-shadow: 0 0.125rem 0.25rem oklch(from var(--color-neutral-900) 1ch / 0.1);
 }
-
 .project-card h3 {
   margin-block-start: 0;
   margin-block-end: 1rem;
   color: var(--color-neutral-800);
 }
-
 .project-card img {
   inline-size: 100%;
   block-size: auto;
   margin-block-end: 1rem;
   border-radius: 0.25rem;
 }
-
 .project-card p {
   margin-block-end: 1rem;
   color: var(--color-neutral-800);
 }
-
 .project-card p:last-of-type {
   margin-block-end: 1.5rem;
 }
-
-/* Tablet Styles - 34rem and up (550px+) */
+/* Tablet Styles - 34rem and up 550px+)*/
 @media (min-width: 34rem) {
   .projects-grid {
     grid-template-columns: repeat(2, 1fr); /*2 columns on tablet*/
-    grid-template-rows: repeat(auto-fill, auto); /* Auto rows */
     gap: 2rem;
   }
 }
-
-/* Laptop Styles - 68rem and up (1100px+) */
+/* Laptop Styles - 68rem and up (1100px+)*/
 @media (min-width: 68rem) {
   .projects-grid {
-    grid-template-columns: repeat(3, 1fr); /*3 columns on desktop*/
-    grid-template-rows: repeat(auto-fill, auto); /* Auto rows */
+    grid-template-columns: repeat(3, 1fr) /*3 columns on desktop*/;
     gap: 2rem;
+  }
+  /*flexbox equal heights code*/
+  .project-card {
+    display: flex;
+    flex-direction: column;
+  }
+  .project-card p:last-of-type {
+    flex: 1;
   }
 }
 /* Work Experience
