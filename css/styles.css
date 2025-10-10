@@ -204,6 +204,7 @@ footer a:hover {
 @media (min-width: 68rem) {
   .projects-grid {
     grid-template-columns: repeat(3, 1fr) /*3 columns on desktop*/;
+    grid-template-rows: repeat(auto-fill, auto); /*Add auto rows*/
     gap: 2rem;
   }
   /*flexbox equal heights code*/
