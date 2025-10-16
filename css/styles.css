@@ -521,3 +521,9 @@ footer {
   transition: all 0.25s ease;
   z-index: 1;
 }
+
+.popover-close-btn:hover {
+  background-color: var(--color-green);
+  color: var(--color-neutral-100);
+  transform: rotate(90deg);
+}
