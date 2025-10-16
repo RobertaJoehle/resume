@@ -317,6 +317,18 @@ nav ul li a.active {
     background-color: var(--color-beige);
     color: var(--color-neutral-900);
   }
+  nav button.btn {
+    background: var(--color-green);
+    color: var(--color-neutral-100);
+    font-family: inherit;
+    border: none;
+    cursor: pointer;
+  }
+
+  nav button.btn:hover {
+    background-color: var(--color-beige);
+    color: var(--color-neutral-900);
+  }
 }
 /* HOME mobile first
 ------------------------------------*/
@@ -469,11 +481,11 @@ footer {
 ------------------------------------*/
 /*Base Styles*/
 #contact-popover {
-  position-anchor: --contact-anchor;
   position: fixed;
-  inset-block-start: anchor(bottom);
-  inset-inline-start: anchor(center);
-  translate: -50% 0.75rem;
+  inset-block-start: 50%;
+  inset-inline-start: 50%;
+  translate: -50% -50%;
+  margin: 0;
 
   /*Query Setup*/
   container-type: inline-size;
