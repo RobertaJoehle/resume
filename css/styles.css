@@ -561,3 +561,12 @@ footer {
   color: var(--color-neutral-800);
   font-size: 0.9375rem;
 }
+
+.popover-contact-info {
+  display: flex;
+  flex-direction: column;
+  gap: 0.625rem;
+  margin-block-start: 1.125rem;
+  padding-block-start: 1rem;
+  border-block-start: 2px dashed var(--color-neutral-300);
+}
