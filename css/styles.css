@@ -310,7 +310,7 @@ nav ul li a.active {
   nav .btn {
     inline-size: auto;
     padding: 0.5rem 1.5rem;
-    anchor-name: --contact-anchor; /*creating contact anchor*/
+    anchor-name: --contact-anchor; /*creating contact popover anchor*/
   }
 
   nav .btn:hover {
@@ -464,3 +464,6 @@ footer {
 .socials img:hover {
   opacity: 0.5;
 }
+
+/* CONTACT-POPOVER
+------------------------------------*/
