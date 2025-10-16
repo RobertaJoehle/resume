@@ -515,4 +515,9 @@ footer {
   font-size: 1.375rem;
   font-weight: 700;
   font-family: var(--font-heading);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.25s ease;
+  z-index: 1;
 }
