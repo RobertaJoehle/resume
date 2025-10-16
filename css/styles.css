@@ -653,3 +653,11 @@ footer {
   overflow-y: auto;
   gap: 1.5rem;
 }
+
+.popover-profile-img {
+  max-inline-size: 13.75rem;
+}
+
+.popover-bio {
+  display: block;
+}
