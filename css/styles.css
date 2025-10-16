@@ -606,3 +606,10 @@ footer {
 .popover-text-content h2 {
   font-size: 2.5rem;
 }
+
+/*Container Query_Medium (two columns without bio) 380px - 540px*/
+@container contact-card (inline-size > 23.75rem) and (inline-size <=33.75rem) {
+  #contact-popover {
+    inline-size: clamp(22rem, 55vw, 30rem);
+  }
+}
