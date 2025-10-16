@@ -645,3 +645,11 @@ footer {
     border-inline: none;
   }
 }
+
+.popover-content {
+  grid-template-columns: 1fr;
+  block-size: 100%;
+  padding: 3.5rem 1.25rem 2rem;
+  overflow-y: auto;
+  gap: 1.5rem;
+}
