@@ -634,3 +634,14 @@ footer {
 }
 
 /* Container Query: Small (stacked, full viewport) - Under 380px */
+@container contact-card (inline-size <= 23.75rem) {
+  #contact-popover {
+    inline-size: 100vw;
+    block-size: 100vh;
+    max-inline-size: 100vw;
+    inset: 0;
+    translate: 0;
+    border-radius: 0;
+    border-inline: none;
+  }
+}
