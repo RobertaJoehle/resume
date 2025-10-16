@@ -613,3 +613,10 @@ footer {
     inline-size: clamp(22rem, 55vw, 30rem);
   }
 }
+
+.popover-content {
+  grid-template-columns: 2fr 3fr;
+  align-items: flex-start;
+  gap: 1.25rem;
+  padding: 2rem 1.5rem;
+}
