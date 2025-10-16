@@ -586,3 +586,11 @@ footer {
 }
 
 /*Container Query_Large (two columns with bio) over 540px*/
+@container contact-card (inline-size > 33.75rem) {
+  .popover-content {
+    grid-template-columns: 2fr 3fr;
+    align-items: flex-start;
+    gap: 2rem;
+    padding: 2.5rem 2rem;
+  }
+}
