@@ -488,7 +488,7 @@ footer {
   border: 2px solid var(--color-green);
   border-radius: 1rem;
   box-shadow: 0 0.625rem 2rem oklch(from var(--color-neutral-900) l c h / 0.4),
-    0 0.125rem 0.5rem oklch(from var(--color-green) l c h / 0.2); /*First soft dark underneath- Second subtle green glow around edge*/
+    0 0.125rem 0.5rem oklch(from var(--color-green) l c h / 0.2); /*Layered shadow effect*/
   padding: 0;
   margin: 0;
   overflow: hidden;
