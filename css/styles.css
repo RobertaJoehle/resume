@@ -500,6 +500,13 @@ footer {
   backdrop-filter: blur(5px); /*I use px as blur radius is based on its radius*/
 }
 
+/* Popover Content Container */
+.popover-content {
+  display: grid;
+  gap: 1.25rem;
+  padding: 2.5rem 1.75rem 2rem;
+}
+
 /*Close button*/
 .popover-close-btn {
   position: absolute;
@@ -540,7 +547,7 @@ footer {
     oklch(from var(--color-neutral-800) l c h / 0.25);
 }
 
-.popover-img-container {
+.popover-image-container {
   display: flex;
   justify-content: center;
   align-items: flex-start;
