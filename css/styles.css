@@ -632,3 +632,5 @@ footer {
 .popover-text-content h2 {
   font-size: 1.875rem;
 }
+
+/* Container Query: Small (stacked, full viewport) - Under 380px */
