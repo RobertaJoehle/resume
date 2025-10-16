@@ -495,3 +495,7 @@ footer {
 }
 
 /*Backdrop*/
+#contact-popover::backdrop {
+  background-color: oklch(from var(--color-neutral-900) l c h / 0.75);
+  backdrop-filter: blur(5px); /*I use px as blur radius is based on its radius*/
+}
