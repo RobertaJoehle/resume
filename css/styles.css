@@ -475,7 +475,11 @@ footer {
   inset-inline-start: anchor(center);
   translate: -50% 0.5rem;
 
-  /*Query Set up*/
+  /*Query Setup*/
   container-type: inline-size;
   container-name: contact-card;
+
+  /*Responsive Width Setup_asked AI for help with this*/
+  inline-size: clamp(20rem, 50vw, 33vw);
+  max-inline-size: 90vw;
 }
