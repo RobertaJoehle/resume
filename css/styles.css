@@ -487,4 +487,8 @@ footer {
   background-color: var(--color-neutral-100);
   border: 2px solid var(--color-green);
   border-radius: 0.75rem;
+  box-shadow: 0 0.5rem 1.5rem oklch(from var(--color-neutral-900) l c h / 0.3);
+  padding: 0;
+  margin: 0;
+  overflow: hidden;
 }
