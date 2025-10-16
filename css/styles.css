@@ -482,4 +482,9 @@ footer {
   /*Responsive Width Setup_asked AI for help with this*/
   inline-size: clamp(20rem, 50vw, 33vw);
   max-inline-size: 90vw;
+
+  /*Style to Match Site*/
+  background-color: var(--color-neutral-100);
+  border: 2px solid var(--color-green);
+  border-radius: 0.75rem;
 }
