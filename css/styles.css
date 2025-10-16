@@ -501,3 +501,10 @@ footer {
 }
 
 /*Close button*/
+.popover-close-btn {
+  position: absolute;
+  inset-block-start: 0.875rem;
+  inset-inline-end: 0.875rem;
+  background-color: var(--color-beige);
+  color: var(--color-neutral-900);
+}
