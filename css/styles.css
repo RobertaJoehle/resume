@@ -584,3 +584,5 @@ footer {
 .popover-contact-info a:hover {
   color: var(--color-beige);
 }
+
+/*Container Query_Large (two columns with bio) over 540px*/
