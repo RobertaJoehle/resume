@@ -539,3 +539,9 @@ footer {
   box-shadow: 0 0.25rem 0.75rem
     oklch(from var(--color-neutral-800) l c h / 0.25);
 }
+
+.popover-img-container {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
