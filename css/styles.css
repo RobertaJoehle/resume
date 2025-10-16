@@ -594,3 +594,15 @@ footer {
     padding: 2.5rem 2rem;
   }
 }
+
+.popover-profile-img {
+  max-inline-size: 13.75rem;
+}
+
+.popover-bio {
+  display: block;
+}
+
+.popover-text-content h2 {
+  font-size: 2.5rem;
+}
