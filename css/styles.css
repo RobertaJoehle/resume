@@ -547,3 +547,10 @@ footer {
 }
 
 /*Profile content*/
+.popover-text-content h2 {
+  font-family: var(--font-heading);
+  color: var(--color-green);
+  margin-block-end: 0.625rem;
+  font-size: 2.25rem;
+  line-height: 1.2;
+}
