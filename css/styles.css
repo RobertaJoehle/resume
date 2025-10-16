@@ -661,3 +661,15 @@ footer {
 .popover-bio {
   display: block;
 }
+
+.popover-close-btn {
+  inset-block-start: 1rem;
+  inset-block-end: 1rem;
+  inline-size: 2.75rem;
+  block-size: 2.75rem;
+  font-size: 1.5rem;
+}
+
+.popover-text-content h2 {
+  font-size: 2rem;
+}
