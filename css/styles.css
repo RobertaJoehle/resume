@@ -570,3 +570,13 @@ footer {
   padding-block-start: 1rem;
   border-block-start: 2px dashed var(--color-neutral-300);
 }
+
+.popover-contact-info a {
+  color: var(--color-green);
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  gap: 0.625rem;
+  font-size: 0.9375rem;
+  transition: color 0.2s ease;
+}
