@@ -620,3 +620,15 @@ footer {
   gap: 1.25rem;
   padding: 2rem 1.5rem;
 }
+
+.popover-profile-img {
+  max-inline-size: 10rem;
+}
+
+.popover-bio {
+  display: none;
+}
+
+.popover-text-content h2 {
+  font-size: 1.875rem;
+}
