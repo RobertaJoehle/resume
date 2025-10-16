@@ -474,4 +474,8 @@ footer {
   inset-block-start: anchor(bottom);
   inset-inline-start: anchor(center);
   translate: -50% 0.5rem;
+
+  /*Query Set up*/
+  container-type: inline-size;
+  container-name: contact-card;
 }
