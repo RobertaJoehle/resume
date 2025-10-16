@@ -473,20 +473,20 @@ footer {
   position: fixed;
   inset-block-start: anchor(bottom);
   inset-inline-start: anchor(center);
-  translate: -50% 0.5rem;
+  translate: -50% 0.75rem;
 
   /*Query Setup*/
   container-type: inline-size;
   container-name: contact-card;
 
   /*Responsive Width Setup_asked AI for help with this*/
-  inline-size: clamp(20rem, 50vw, 33vw);
-  max-inline-size: 90vw;
+  inline-size: clamp(18.75rem, 45vw, 33.3vw);
+  max-inline-size: 93vw;
 
   /*Style to Match Site*/
   background-color: var(--color-neutral-100);
   border: 2px solid var(--color-green);
-  border-radius: 0.75rem;
+  border-radius: 1rem;
   box-shadow: 0 0.5rem 1.5rem oklch(from var(--color-neutral-900) l c h / 0.3);
   padding: 0;
   margin: 0;
