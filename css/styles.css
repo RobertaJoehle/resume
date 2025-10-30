@@ -128,6 +128,8 @@ footer a:hover {
   text-decoration: none;
   max-inline-size: 9rem;
   display: inline-block;
+  animation: logoEntrance 0.8s ease-out;
+  transition: all 0.3s ease;
 }
 
 .navWrap {
@@ -705,15 +707,12 @@ footer {
     opacity: 1;
   }
 }
-.logo {
-  animation: logoEntrance 0.8s ease-out;
-  transition: all 0.3s ease;
-}
 
 /* Logo Hover 3d effect - found example on prismic site */
 .logo:hover {
-  color: var(--color-green);
-  /* Changes text from white to green */
-  transform: perspective(20rem) rotateY(-15deg) scale(1.1);
-  /* Keep the 3D effect */
+  color: var(--color-beige);
+  background: var(--color-green);
+  padding: 0.25rem 0.5rem;
+  border-radius: 0.25rem;
+  transform: perspective(15rem) rotateY(25deg) scale(1.2);
 }
