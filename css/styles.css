@@ -714,5 +714,5 @@ footer {
   background: var(--color-green);
   padding: 0.25rem 0.5rem;
   border-radius: 0.25rem;
-  transform: perspective(15rem) rotateY(15deg) scale(1.2);
+  transform: perspective(15rem) rotateY(25deg) scale(1.2);
 }
