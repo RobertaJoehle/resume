@@ -699,4 +699,7 @@ footer {
     opacity: 0;
     transform: translateY(-1.25rem) scale(0.8);
   }
+  60% {
+    transform: translateY(0.3125rem) scale(1.05);
+  }
 }
