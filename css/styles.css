@@ -692,3 +692,11 @@ footer {
     font-size: 2rem;
   }
 }
+
+/*Logo animation on page load*/
+@keyframes logoEntrance {
+  0% {
+    opacity: 0;
+    transform: translateY(-1.25rem) scale(0.8);
+  }
+}
