@@ -714,5 +714,5 @@ footer {
 .logo:hover {
   color: var(--color-beige);
   transform: perspective(20rem) rotateY(-15deg) scale(1.1);
-  text-shadow: 0.5rem 0.5rem 1.5rem oklch(from var(--color-green) l c h / 1);
+  text-shadow: 0.5rem 0.5rem 1rem var(--color-green);
 }
