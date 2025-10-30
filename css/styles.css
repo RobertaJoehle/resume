@@ -715,6 +715,6 @@ footer {
 /* Logo Hover 3d effect - found example on prismic site */
 .logo:hover {
   color: var(--color-beige);
-  transform: perspective(37.5rem) rotateY(15deg) scale(1.1);
-  text-shadow: 0.125rem 0.125rem 0.625rem oklch(from var(--color-green) 1ch/0.5);
+  transform: perspective(20rem) rotateY (-15deg) scale(1.1);
+  text-shadow: 0.25rem 0.25rem 1rem oklch(from var(--color-green) l c h / 0.8);
 }
