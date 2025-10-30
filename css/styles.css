@@ -702,4 +702,8 @@ footer {
   60% {
     transform: translateY(0.3125rem) scale(1.05);
   }
+  100% {
+    opacity: 1;
+    transform: translateY(0) scale(1);
+  }
 }
