@@ -251,6 +251,22 @@ nav ul li a:hover {
   background: var(--color-neutral-300);
 }
 
+/*new slider underline effect*/
+nav ul li a::after {
+  content: "";
+  position: absolute;
+  inset-block-end: 0;
+  inset-inline-start: 0;
+  inline-size: 0;
+  block-size: 0.125rem;
+  background: var(--color-beige);
+  transition: inline-size 0.3s ease;
+}
+
+nav ul li a:hover::after {
+  inline-size: 100%;
+}
+
 nav ul li:last-of-type::before {
   content: "";
   display: block;
@@ -716,6 +732,7 @@ footer {
   }
   100% {
     opacity: 1;
+    transform: none;
   }
 }
 
