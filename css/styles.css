@@ -711,3 +711,10 @@ footer {
   animation: logoEntrance 0.8s ease-out;
   transition: all 0.3s ease;
 }
+
+/* Logo Hover 3d effect - found example on prismic site */
+.logo:hover {
+  color: var(--color-beige);
+  transform: perspective(37.5rem) rotateY(15deg) scale(1.1);
+  text-shadow: 0.125rem 0.125rem 0.625rem oklch(from var(--color-green) 1ch/0.5);
+}
