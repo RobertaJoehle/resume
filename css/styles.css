@@ -920,41 +920,6 @@ footer {
   animation: teamMOVE3 4s ease-in-out infinite;
 }
 
-.pm-animation-3 {
-  inline-size: 12.5rem;
-  block-size: 12.5rem;
-  position: relative;
-}
-
-.team-shape {
-  position: absolute;
-  inline-size: 6.25rem;
-  block-size: 6.25rem;
-  border-radius: 50%;
-  mix-blend-mode: multiply;
-}
-
-.shape-1 {
-  background: var(--color-green);
-  inset-block-start: 0;
-  inset-inline-start: 1.875rem;
-  animation: teamMove1 4s ease-in-out infinite;
-}
-
-.shape-2 {
-  background: var(--color-beige);
-  inset-block-start: 3.125rem;
-  inset-inline-start: 0;
-  animation: teamMove2 4s ease-in-out infinite;
-}
-
-.shape-3 {
-  background: oklch(65% 0.08 151.92); /* Mid-tone green */
-  inset-block-start: 3.125rem;
-  inset-inline-start: 4.375rem;
-  animation: teamMove3 4s ease-in-out infinite;
-}
-
 @keyframes teamMove1 {
   0%,
   100% {
