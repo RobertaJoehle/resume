@@ -850,4 +850,12 @@ footer {
     filter: blur(0) brightness(1) hue-rotate(0deg);
     transform: (0deg);
   }
+
+  50% {
+    inset-block-start: 6.25rem;
+    inset-inline-start: 6.25rem;
+    border-radius: 1rem;
+    filter: blur(0.25rem) brightness(0.8) hue-rotate(90deg);
+    transform: (180deg);
+  }
 }
