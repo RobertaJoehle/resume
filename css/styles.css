@@ -841,3 +841,13 @@ footer {
   border-radius: 1rem;
   animation: workflowMove 5s ease-in-out infinite;
 }
+
+@keyframes workflowMove {
+  0% {
+    inset-block-start: 0;
+    inset-inline-start: 0;
+    border-radius: 1rem;
+    filter: blur(0) brightness(1) hue-rotate(0deg);
+    transform: (0deg);
+  }
+}
