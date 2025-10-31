@@ -748,3 +748,10 @@ footer {
 /* Project Management Animations */
 
 /* Animations Base Styles */
+.animations-grid {
+  display: grid;
+  grid-template-columns: 1fr; /*mobile first 1 column*/
+  gap: 2rem;
+  margin-block-start: 2rem;
+  margin-block-end: 3rem;
+}
