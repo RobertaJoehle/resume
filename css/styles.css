@@ -768,7 +768,7 @@ footer {
   position: relative;
 }
 
-/* Animations 1 - Progress tracking bars using clip path */
+/* Animations 1 - Progress tracking bars using clip path- based on chartscss code site*/
 .pm-animation-1 {
   inline-size: 100%;
   max-inline-size: 18.75rem;
@@ -786,4 +786,16 @@ footer {
   border-radius: 0.5rem;
   position: relative;
   overflow: hidden;
+}
+/* Using clip path to reveal progress */
+.progress-bar::before {
+  content: "";
+  position: absolute;
+  inset-block-start: 0;
+  inset-inline-start: 0;
+  inline-size: 100%;
+  block-size: 100%;
+  background: linear-gradient(90deg, var(--color-green), var(--color-beige));
+  clip-path: inset(0 100% 0 0);
+  animation: fillProgress 3s ease-in-out infinite;
 }
