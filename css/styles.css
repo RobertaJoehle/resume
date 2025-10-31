@@ -807,3 +807,11 @@ footer {
 .bar-2::before {
   animation-delay: 0.3s;
 }
+
+.bar-3::before {
+  animation-delay: 0.6s;
+}
+
+.bar-4::before {
+  animation-delay: 0.9s;
+}
