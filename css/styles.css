@@ -918,3 +918,36 @@ footer {
     transform: translate(0, 0) scale(1);
   }
 }
+@keyframes teamMove2 {
+  0%,
+  100% {
+    transform: translate(0, 0) scale(1);
+  }
+  50% {
+    transform: translate(2.5rem, -1.25rem) scale(0.9);
+  }
+}
+
+@keyframes teamMove3 {
+  0%,
+  100% {
+    transform: translate(0, 0) scale(1);
+  }
+  50% {
+    transform: translate(-1.875rem, 0) scale(1.05);
+  }
+}
+
+/* Tablet Styles - 34rem and up */
+@media (min-width: 34rem) {
+  .animations-grid {
+    grid-template-columns: repeat(2, 1fr); /* 2 columns on tablet */
+  }
+}
+
+/* Desktop Styles - 68rem and up */
+@media (min-width: 68rem) {
+  .animations-grid {
+    grid-template-columns: repeat(3, 1fr); /* 3 columns on desktop */
+  }
+}
