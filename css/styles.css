@@ -848,7 +848,7 @@ footer {
     inset-inline-start: 0;
     border-radius: 1rem;
     filter: blur(0) brightness(1) hue-rotate(0deg);
-    transform: (0deg);
+    transform: rotate(0deg);
   }
 
   25% {
@@ -864,7 +864,7 @@ footer {
     inset-inline-start: 6.25rem;
     border-radius: 1rem;
     filter: blur(0.25rem) brightness(0.8) hue-rotate(90deg);
-    transform: (180deg);
+    transform: rotate(180deg);
   }
 
   75% {
@@ -872,7 +872,7 @@ footer {
     inset-inline-start: 0;
     border-radius: 50%;
     filter: blur(00.125rem) brightness(1.2) hue-rotate(135deg);
-    transform: (270deg);
+    transform: rotate(270deg);
   }
 
   100% {
@@ -880,7 +880,7 @@ footer {
     inset-inline-start: 0;
     border-radius: 1rem;
     filter: blur(0) brightness(1) hue-rotate(0deg);
-    transform: (360deg);
+    transform: rotate(360deg);
   }
 }
 
