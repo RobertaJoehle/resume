@@ -778,3 +778,12 @@ footer {
   justify-content: space-around;
   gap: 0.625rem;
 }
+
+.progress-bar {
+  inline-size: 100%;
+  block-size: 1.875em;
+  background: var(--color-neutral-300);
+  border-radius: 0.5rem;
+  position: relative;
+  overflow: hidden;
+}
