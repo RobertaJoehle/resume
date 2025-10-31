@@ -767,3 +767,14 @@ footer {
   overflow: hidden;
   position: relative;
 }
+
+/* Animations 1 - Progress tracking bars using clip path */
+.pm-animation-1 {
+  inline-size: 100%;
+  max-inline-size: 18.75rem;
+  block-size: 12.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  gap: 0.625rem;
+}
