@@ -904,3 +904,10 @@ footer {
   inset-inline-start: 0;
   animation: teamMOVE2 4s ease-in-out infinite;
 }
+
+.shape-3 {
+  background: oklch(65% 0.08 151.92);
+  inset-block-start: 3.125rem;
+  inset-inline-start: 4.375rem;
+  animation: teamMOVE3 4s ease-in-out infinite;
+}
