@@ -832,3 +832,12 @@ footer {
   block-size: 12.5rem;
   position: relative;
 }
+
+.workflow-shape {
+  inline-size: 6.25rem;
+  block-size: 6.25rem;
+  background: var(--color-green);
+  position: absolute;
+  border-radius: 1rem;
+  animation: workflowMove 5s ease-in-out infinite;
+}
