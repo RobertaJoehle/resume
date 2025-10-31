@@ -851,6 +851,14 @@ footer {
     transform: (0deg);
   }
 
+  25% {
+    inset-block-start: 0;
+    inset-inline-start: 6.25rem;
+    border-radius: 50%;
+    filter: blur(0.125rem) brightness(1.2) hue-rotate(45deg);
+    transform: rotate(90deg);
+  }
+
   50% {
     inset-block-start: 6.25rem;
     inset-inline-start: 6.25rem;
