@@ -799,3 +799,11 @@ footer {
   clip-path: inset(0 100% 0 0);
   animation: fillProgress 3s ease-in-out infinite;
 }
+
+.bar-1::before {
+  animation-delay: 0s;
+}
+
+.bar-2::before {
+  animation-delay: 0.3s;
+}
