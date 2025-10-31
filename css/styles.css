@@ -815,3 +815,13 @@ footer {
 .bar-4::before {
   animation-delay: 0.9s;
 }
+
+@keyframes fillProgress {
+  0%,
+  100% {
+    clip-path: inset(0 100% 0 0);
+  }
+  50% {
+    clip-path: inset(0 0 0 0);
+  }
+}
