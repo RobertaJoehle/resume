@@ -825,3 +825,10 @@ footer {
     clip-path: inset(0 0 0 0);
   }
 }
+
+/* ANIMATION 2: Workflow Transition (Filter)*/
+.pm-animation-2 {
+  inline-size: 12.5rem;
+  block-size: 12.5rem;
+  position: relative;
+}
