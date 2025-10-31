@@ -755,3 +755,15 @@ footer {
   margin-block-start: 2rem;
   margin-block-end: 3rem;
 }
+
+.animations-cell {
+  background: var(--color-neutral-300);
+  border-radius: 0.5rem;
+  padding: 2rem;
+  min-block-size: 18.75rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  position: relative;
+}
