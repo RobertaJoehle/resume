@@ -756,7 +756,7 @@ footer {
   margin-block-end: 3rem;
 }
 
-.animations-cell {
+.animation-cell {
   background: var(--color-neutral-300);
   border-radius: 0.5rem;
   padding: 2rem;
