@@ -1034,3 +1034,11 @@ footer {
   stroke: var(--color-neutral-700);
   animation: draw 3s ease-in-out 2s infinite;
 }
+
+/* Draw Animation Keyframes */
+@keyframes draw {
+  0% {
+    stroke-dashoffset: 300;
+    opacity: 0;
+  }
+}
