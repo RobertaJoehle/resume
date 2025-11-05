@@ -963,3 +963,12 @@ footer {
     grid-template-columns: repeat(3, 1fr); /* 3 columns on desktop */
   }
 }
+
+/* ===================================
+   SVG PROJECT PAGE STYLES
+   Original SVG by Jordan Wade
+   https://codepen.io/jordanwade/pen/JjVEwP
+   Adapted and modified for educational purposes
+   =================================== */
+
+/* SVG animation container */
