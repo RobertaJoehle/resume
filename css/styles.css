@@ -1008,5 +1008,17 @@ footer {
 /* Left bracket bottom */
 #path-2 {
   stroke: var(--color-green);
+  animation: draw 2.5s ease-in-out 0.8s infinite;
+}
+
+/* Right bracket top */
+#path-3 {
+  stroke: var(--color-green);
   animation: draw 2.5s ease-in-out 1.1s infinite;
+}
+
+/*Right bracket bottom*/
+#path-4 {
+  stroke: var(--color-beige);
+  animation: draw 2.5s ease-in-out 1.4s infinite;
 }
