@@ -1028,3 +1028,9 @@ footer {
   stroke: var(--color-neutral-800);
   animation: draw 3s ease-in-out 1.7s infinite;
 }
+
+/* Inner circle */
+#path-6 {
+  stroke: var(--color-neutral-700);
+  animation: draw 3s ease-in-out 2s infinite;
+}
