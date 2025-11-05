@@ -981,4 +981,7 @@ footer {
     oklch(from var(--color-neutral-900) l c h / 0.1);
   margin-block-end: 2rem;
   min-block-size: 25rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
