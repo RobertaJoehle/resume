@@ -1022,3 +1022,9 @@ footer {
   stroke: var(--color-beige);
   animation: draw 2.5s ease-in-out 1.4s infinite;
 }
+
+/* Outer circle */
+#path-5 {
+  stroke: var(--color-neutral-800);
+  animation: draw 3s ease-in-out 1.7s infinite;
+}
