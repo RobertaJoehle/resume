@@ -974,4 +974,7 @@ footer {
 /* SVG animation container */
 .animation-container {
   background-color: var(--color-neutral-100);
+  border-radius: 0.75rem;
+  padding-block: 3rem;
+  padding-inline: 2rem;
 }
