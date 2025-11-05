@@ -1050,3 +1050,35 @@ footer {
     opacity: 0;
   }
 }
+
+.svg-description .credit {
+  font-size: 0.9rem;
+  color: var(--color-neutral-600);
+  font-style: italic;
+  margin-block-start: 2rem;
+}
+
+.svg-description .credit a {
+  color: var(--color-green);
+  text-decoration: none;
+}
+
+.svg-description .credit a:hover {
+  color: var(--color-beige);
+  text-decoration: underline;
+}
+
+/* Responsive Adjustments */
+@media (min-width: 34rem) {
+  .animation-container {
+    padding-block: 4rem;
+    padding-inline: 3rem;
+  }
+}
+
+@media (min-width: 68rem) {
+  .animation-container {
+    padding-block: 5rem;
+    padding-inline: 4rem;
+  }
+}
