@@ -972,3 +972,6 @@ footer {
    =================================== */
 
 /* SVG animation container */
+.animation-container {
+  background-color: var(--color-neutral-100);
+}
