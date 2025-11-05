@@ -985,3 +985,15 @@ footer {
   align-items: center;
   justify-content: center;
 }
+
+.svg-wrapper {
+  position: relative;
+  inline-size: 100%;
+  max-inline-size: 41.875rem; /*670px*/
+}
+
+.svg-wrapper svg {
+  inline-size: 100%;
+  block-size: auto;
+  display: block;
+}
