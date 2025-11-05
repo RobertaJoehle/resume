@@ -999,3 +999,8 @@ footer {
 }
 
 /* Individual Path Animations with Delays */
+/* Left bracket top */
+#path-1 {
+  stroke: var(--color-green);
+  animation: draw 2.5s ease-in-out 0.5s infinite;
+}
