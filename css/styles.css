@@ -1045,4 +1045,8 @@ footer {
     stroke-dashoffset: 0;
     opacity: 1;
   }
+  100% {
+    stroke-dashoffset: -300;
+    opacity: 0;
+  }
 }
