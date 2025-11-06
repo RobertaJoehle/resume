@@ -493,7 +493,8 @@ footer {
 }
 .socials {
   list-style-type: none;
-  padding: 0;
+  padding-block: 0;
+  padding-inline: 0;
 }
 .socials li {
   display: inline-block;
