@@ -130,7 +130,7 @@ footer a:hover {
   padding: 0.625rem;
   max-inline-size: 56.25rem;
 }
-/* --- Navigation Menu Styles - MOBILE FIRST --- */
+/* Navigation Menu Styles - MOBILE FIRST */
 
 .logo {
   font-size: 1.6rem;
@@ -396,8 +396,7 @@ nav ul li a.active {
   border-block-end: 2px dashed var(--color-neutral-300);
 }
 
-/* Profile
-------------------------------------*/
+/* Profile */
 /* No additional styles needed - uses resume-section base styles */
 
 /*Projects
@@ -463,8 +462,7 @@ nav ul li a.active {
     gap: 2rem;
   }
 }
-/* Work Experience
-------------------------------------*/
+/* Work Experience */
 .work-item {
   margin-block: 1.875rem 0;
 }
@@ -474,8 +472,7 @@ nav ul li a.active {
   margin-inline: 0;
 }
 
-/* Education
-------------------------------------*/
+/* Education */
 .education-item {
   margin-block: 1.875rem 0;
 }
@@ -772,7 +769,7 @@ footer {
   position: relative;
 }
 
-/* Animations 1 - Progress tracking bars using clip path- based on chartscss code site*/
+/* Animation 1 - Progress tracking bars using clip path- based on chartscss code site*/
 .pm-animation-1 {
   inline-size: 100%;
   max-inline-size: 18.75rem;
