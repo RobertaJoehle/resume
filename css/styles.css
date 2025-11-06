@@ -273,7 +273,8 @@ nav ul li a:hover::after {
 nav ul li:last-of-type::before {
   content: "";
   display: block;
-  padding: 0.5rem;
+  padding-block: 0.5rem;
+  padding-inline: 0.5rem;
 }
 
 nav .btn {
